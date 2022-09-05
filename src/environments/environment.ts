@@ -23,5 +23,5 @@
 
 export const environment = {
   production: false,
-  REST_API_URL: 'http://localhost:9966/petclinic/api/'
+  REST_API_URL: 'https://petclinic-frontend.thankfultree-22aa8e4c.eastus.azurecontainerapps.io/proxy/api'
 };

@@ -1,0 +1,9 @@
+{
+    "/proxy/api": {
+      "target": "http:api-gateway.internal.thankfultree-22aa8e4c.eastus.azurecontainerapps.io",
+      "logLevel": "debug",
+      "secure": false,
+      "pathRewrite": {"^/proxy/api" : "https://api-gateway.internal.thankfultree-22aa8e4c.eastus.azurecontainerapps.io"},
+      "changeOrigin": true
+    }
+  }

@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config ./src/proxy.conf.json",
     "build": "ng build",
     "test": "ng test",
     "test-headless": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
@@ -38,6 +38,7 @@
     "@angular-eslint/eslint-plugin": "4.3.0",
     "@angular-eslint/eslint-plugin-template": "4.3.0",
     "@angular-eslint/template-parser": "4.3.0",
+    "@angular/cli": "^14.2.1",
     "@angular/compiler-cli": "11.2.11",
     "@angular/language-service": "11.2.11",
     "@types/jasmine": "~3.6.0",
